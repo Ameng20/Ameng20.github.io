@@ -91,11 +91,11 @@ a {
 }
 .nav .nav_a img {
   display: block;
-  width: 2.6667rem;
-  height: 2.6667rem;
+  width: 3.4667rem;
+  height: 3.4667rem;
 }
 .nav .nav_a span {
-  font-size: 0.4rem;
+  font-size: 0.6667rem;
 }
 .nav .nav_a:nth-child(-n+3) {
   margin-bottom: 0.8rem;
