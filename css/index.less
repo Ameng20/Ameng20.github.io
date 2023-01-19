@@ -1,0 +1,45 @@
+@import "common";
+body{
+    min-width: 320px;
+    max-width:750px;
+    margin: 0 auto;
+    height: 1200px;
+}
+a{
+    text-decoration: none;
+      color: black;
+}
+@media screen and (min-width:750px){
+    html{
+        font-size: 37.5px !important;
+    }
+}
+.header{
+    height: 2.1333rem;
+    border-bottom: .0533rem solid black;
+    font-size: .9333rem;
+    text-align: center;
+    line-height: 2.1333rem;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.3333rem 0 1.3333rem 0;
+    .nav_a{
+        display: flex;
+        width: 33.33%;
+        flex-direction: column;
+        align-items: center;
+        img{
+            display: block;
+            width: 2.6667rem;
+            height:2.6667rem;
+        }
+        span{
+            font-size: .4rem;
+        }
+        &:nth-child(-n+3){
+            margin-bottom:.8rem;
+        }
+    }
+}
