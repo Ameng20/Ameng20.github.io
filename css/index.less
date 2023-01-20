@@ -22,21 +22,7 @@ a{
     text-align: center;
     line-height: 2.1333rem;
 }
-// 数据
-.SJ{
-    display: flex;
-    height: 5rem;
-    background-color:aquamarine;
-    border-radius: 1.3333rem;
-    .SJ_one{
-        flex: 1;
-        img{
-            padding-left: .6667rem;
-            width: 8rem;
-            height: 5.3333rem;
-        }
-    }
-}
+// 流动区域
 // 导航区域
 .nav{
     display: flex;
@@ -58,6 +44,23 @@ a{
         }
         &:nth-child(-n+3){
             margin-bottom:.8rem;
+        }
+    }
+}
+// 导航下部
+.SJ{
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    .SJ_one{
+        flex: 1;
+        img{
+            padding:.4rem;
+            width: 8rem;
+            height: 5.3333rem;
+        }
+        p{
+            text-shadow: .0533rem .0533rem .0267rem rgba(0,0,0,0.3);
         }
     }
 }
