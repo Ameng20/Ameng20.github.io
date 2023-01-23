@@ -64,7 +64,6 @@ body {
   -webkit-touch-callout: none;
 }
 a {
-  -webkit-top-height-color: transparent !important;
   text-decoration: none;
   color: black;
 }
@@ -77,6 +76,7 @@ a {
   display: flex;
   height: 2.6667rem;
   align-items: center;
+  border: 0.0267rem solid black;
   border-bottom: 0.0533rem solid black;
 }
 .header .header_one {
@@ -87,8 +87,8 @@ a {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
-  vertical-align: middle;
-  padding-left: 3.4667rem;
+  vertical-align: middle !important;
+  padding-left: 1.4667rem;
 }
 .header .header_two {
   flex: 3;
