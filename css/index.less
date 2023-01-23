@@ -4,25 +4,70 @@ body{
     max-width:750px;
     margin: 0 auto;
     height: 1200px;
+    -webkit-touch-callout:none;
 }
 a{
+    -webkit-top-height-color:transparent !important;
     text-decoration: none;
       color: black;
+      
+
 }
 @media screen and (min-width:750px){
     html{
         font-size: 37.5px !important;
     }
 }
-// 顶部区域
+// 头部区域
 .header{
-    height: 2.1333rem;
+    display: flex;
+    height: 2.6667rem;
+    align-items: center;
     border-bottom: .0533rem solid black;
-    font-size: .9333rem;
-    text-align: center;
-    line-height: 2.1333rem;
+    .header_one{
+        flex: 1;
+        position: relative;
+        img{
+            display: inline-block;
+            width: 1.5rem;
+            height:1.5rem;
+            vertical-align: middle;
+            padding-left:3.4667rem;
+        }
+    }
+    .header_two{
+        flex:3;   
+        .header_div{
+            width: 13.3333rem;
+            height: 1.6rem;
+            overflow: hidden;
+            .GD{
+                width: 13.3333rem;
+                height: 1.6rem;
+                line-height: 1.6rem;
+                animation: GD 10s;
+                transform: translate(-14rem);
+                font-size: .8rem;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+                
+            }
+        }
+    }
+}
+@keyframes GD{
+    0%{
+        transform: translate(-14rem);
+    }
+    100%{
+        transform: translate(20rem);
+    }
 }
 // 流动区域
+// .LD{
+//     height: 200px;
+//     background-color: red;
+// }
 // 导航区域
 .nav{
     display: flex;
@@ -61,7 +106,6 @@ a{
         }
         p{
             font-size: .4rem;
-            text-shadow: .0533rem .0533rem .0267rem rgba(0,0,0,0.3);
         }
     }
 }

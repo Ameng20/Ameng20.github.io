@@ -61,8 +61,10 @@ body {
   max-width: 750px;
   margin: 0 auto;
   height: 1200px;
+  -webkit-touch-callout: none;
 }
 a {
+  -webkit-top-height-color: transparent !important;
   text-decoration: none;
   color: black;
 }
@@ -72,11 +74,47 @@ a {
   }
 }
 .header {
-  height: 2.1333rem;
+  display: flex;
+  height: 2.6667rem;
+  align-items: center;
   border-bottom: 0.0533rem solid black;
-  font-size: 0.9333rem;
-  text-align: center;
-  line-height: 2.1333rem;
+}
+.header .header_one {
+  flex: 1;
+  position: relative;
+}
+.header .header_one img {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+  padding-left: 3.4667rem;
+}
+.header .header_two {
+  flex: 3;
+}
+.header .header_two .header_div {
+  width: 13.3333rem;
+  height: 1.6rem;
+  overflow: hidden;
+}
+.header .header_two .header_div .GD {
+  width: 13.3333rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  animation: GD 10s;
+  transform: translate(-14rem);
+  font-size: 0.8rem;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes GD {
+  0% {
+    transform: translate(-14rem);
+  }
+  100% {
+    transform: translate(20rem);
+  }
 }
 .nav {
   display: flex;
@@ -116,5 +154,4 @@ a {
 }
 .SJ .SJ_one p {
   font-size: 0.4rem;
-  text-shadow: 0.0533rem 0.0533rem 0.0267rem rgba(0, 0, 0, 0.3);
 }
