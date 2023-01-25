@@ -66,6 +66,8 @@ body {
 a {
   text-decoration: none;
   color: black;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -moz-user-focus: none;
 }
 @media screen and (min-width: 750px) {
   html {
@@ -75,21 +77,13 @@ a {
 .header {
   display: flex;
   height: 2.6667rem;
+  flex-direction: column;
   align-items: center;
-  border: 0.0267rem solid black;
-  border-bottom: 0.0533rem solid black;
-}
-.header .header_one {
-  flex: 1;
-}
-.header .header_one img {
-  display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
-  vertical-align: middle;
-  padding-left: 1.8667rem;
 }
 .header .header_two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex: 3;
 }
 .header .header_two .header_div {
@@ -114,6 +108,67 @@ a {
   100% {
     transform: translate(20rem);
   }
+}
+.LD {
+  display: flex;
+  height: 10.6667rem;
+  margin-top: 1.3333rem;
+  flex-direction: column;
+}
+.LD .LD_H {
+  display: flex;
+  flex: 1;
+}
+.LD .LD_H .LD_H_H {
+  display: flex;
+  flex: 1;
+  border-radius: 0.6667rem;
+  width: 10px;
+  height: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+.LD .LD_H .LD_H_H div {
+  border-radius: 15px;
+  text-align: center;
+  line-height: 2.6667rem;
+  width: 5.3333rem;
+  height: 2.6667rem;
+}
+.LD .LD_H .LD_H_H .LD_H_H_div1 {
+  color: white;
+  text-shadow: 0.0533rem 0.0533rem 1.0667rem white;
+  background-color: green;
+  box-shadow: 2px 2px 15px black;
+}
+.LD .LD_H .LD_H_H .LD_H_H_div2 {
+  color: aqua;
+  background-color: green;
+  box-shadow: 2px 2px 15px black;
+}
+.LD .LD_H .LD_H_H .LD_H_H_div3 {
+  background-color: green;
+  box-shadow: 2px 2px 15px black;
+}
+.LD .LD_H .LD_H_H .LD_H_H_div4 {
+  background-color: green;
+  box-shadow: 2px 2px 15px black;
+}
+.LD .LD_H .LD_H_H .LD_H_H_div5 {
+  background-color: green;
+  box-shadow: 2px 2px 15px black;
+}
+.LD .LD_H .LD_H_H .LD_H_H_div6 {
+  background-color: green;
+  box-shadow: 2px 2px 15px black;
+}
+.LD .LD_H .LD_H_H .LD_H_H_div7 {
+  background-color: green;
+  box-shadow: 2px 2px 15px black;
+}
+.LD .LD_H .LD_H_H .LD_H_H_div8 {
+  background-color: green;
+  box-shadow: 2px 2px 15px black;
 }
 .nav {
   display: flex;
