@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/swiper.min.css">
 	</head>
 	<body>
+	
 	<!-- 头部区域 -->
 	<div class="header">
 		<div class="header_two">
@@ -113,7 +114,24 @@
 			<div class="swiper-pagination"></div>
 		  </div>
 	</div>
-	123
+	<!-- 广告 -->
+	<div class="DH_backgrund">
+		<img src="img/广告背景图.jpg">
+	<div class="DH">四季有你~</div>
+	</div>
+	<script>
+		var DH=document.querySelector('.DH');
+		document.addEventListener('scroll',function(){
+			console.log(window.pageYOffset);
+			if(window.pageYOffset>=435){
+			DH.setAttribute('style',"animation: DH 3s;animation-iteration-count: infinite;");
+		}else if(window.pageYOffset<=435){
+			DH.removeAttribute('style',"animation: DH 3s;animation-iteration-count: infinite;");
+		}
+		})
+		
+		
+	</script>
 	<!-- 移动端文件 -->
 	<script src="js/flexible.js"></script>
 	<!-- swiper文件 -->
