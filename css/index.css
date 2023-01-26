@@ -205,7 +205,7 @@ a {
   font-size: 0.4rem;
 }
 .footer {
-  padding-top: 1.0667rem;
+  padding-top: 2.6667rem;
   overflow: hidden;
 }
 .footer .swiper {
@@ -242,13 +242,14 @@ a {
 }
 .DH {
   margin: 5.3333rem auto;
-  width: 300px;
+  width: 16rem;
   height: 2.6667rem;
   background-color: white;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0.0533rem 0.0533rem 0.2667rem rgba(0, 0, 0, 0.5);
   line-height: 2.6667rem;
   text-align: center;
   font-family: '仿宋';
+  font-size: 0.8rem;
 }
 @keyframes DH {
   0% {
