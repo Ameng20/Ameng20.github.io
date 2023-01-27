@@ -73,14 +73,34 @@ a {
     font-size: 37.5px !important;
   }
 }
-div {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  background-color: red;
-  animation: AM 3s;
+.Rotate {
+  position: relative;
+  display: flex;
+  height: 2.6667rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Rotate img {
+  position: absolute;
+  top: 0.6667rem;
+  right: 0.6667rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 2.6667rem;
+  animation: AM 7s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+}
+.Rotate .Rotate_div {
+  position: absolute;
+  top: 1.3333rem;
+  right: 1.3333rem;
+  align-content: center;
+  width: 0.2667rem;
+  height: 0.2667rem;
+  border-radius: 2.6667rem;
+  background-color: white;
 }
 @keyframes AM {
   0% {
