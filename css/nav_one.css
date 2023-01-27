@@ -60,7 +60,6 @@ body {
   min-width: 320px;
   max-width: 750px;
   margin: 0 auto;
-  height: 1200px;
   -webkit-touch-callout: none;
 }
 a {
@@ -72,5 +71,22 @@ a {
 @media screen and (min-width: 750px) {
   html {
     font-size: 37.5px !important;
+  }
+}
+div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: red;
+  animation: AM 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes AM {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
