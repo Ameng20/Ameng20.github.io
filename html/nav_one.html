@@ -14,26 +14,15 @@
         <div class="Rotate_div"></div>
     </div>
     <script>
-        var div=document.querySelector('div');
-        var number=0;
-        div.addEventListener('click',function(){
-            // if(number===0){
-            //     div.setAttribute('style',"animation: AM 3s;animation-iteration-count: infinite;animation-timing-function: linear;");
-            //     Animation(){
-                    
-            //     }
-            //     number++;
-            //     console.log(number);
-            // }else if(number===1){
-            //     div.removeAttribute('style',"animation: AM 3s;animation-iteration-count: infinite;animation-timing-function: linear;");
-            //     console.log('这是二');
-            //     number=0;
-            // }
-            
-        })
-      
+        document.addEventListener('WeixinJSBridgeReady', function() {
+        var audio = document.getElementById('audio');
+        audio.play();
+        }, false);
+        document.addEventListener('WeixinJSBridgeReady', function() {
+    audioPlay();
+}, false);
     </script>
-    <audio muted autoplay="autoplay" loop="loop">
+    <audio autoplay="autoplay" loop="loop">
     <source src="../img/audio1.mp3" type="audio/mp3">
     </audio>
 
