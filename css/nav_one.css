@@ -60,6 +60,7 @@ body {
   min-width: 320px;
   max-width: 750px;
   margin: 0 auto;
+  height: 100vh;
   -webkit-touch-callout: none;
 }
 a {
@@ -108,5 +109,17 @@ a {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+.text {
+  position: absolute;
+  z-index: 9999999;
+  font-weight: bold;
+  user-select: none;
+  font-size: 1.3333rem;
+}
+@keyframes remove {
+  100% {
+    opacity: 0;
   }
 }
