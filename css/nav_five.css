@@ -68,7 +68,7 @@ a {
   color: black;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   -moz-user-focus: none;
-  font-size: 0.1333rem;
+  font-size: 0.5333rem;
 }
 @media screen and (min-width: 750px) {
   html {
@@ -79,6 +79,7 @@ a {
   height: 53.3333rem;
   background-color: #e8e8e8;
   overflow: hidden;
+  font-size: 0.5333rem;
 }
 #main .content {
   margin-left: 0.5333rem;
@@ -93,7 +94,7 @@ a {
   font-size: 0.5333rem '仿宋';
 }
 #main .content p {
-  font-size: 0.0267rem;
+  font-size: 0.5333rem;
 }
 #main .Detailed {
   margin-left: 0.5333rem;
@@ -147,29 +148,29 @@ a {
   font-weight: bolder;
   text-align: center;
   line-height: 1.0667rem;
-  font-size: 0.0267rem '仿宋';
+  font-size: 0.5333rem;
 }
 #main .div_2 {
   display: flex;
   height: 8rem;
   flex-wrap: wrap;
-  font-size: 0.0027rem '仿宋';
+  font-size: 0.5333rem;
 }
 #main .div_3 {
   display: flex;
   height: 8rem;
   flex-wrap: wrap;
-  font-size: 0.0027rem '仿宋';
+  font-size: 0.5333rem;
 }
 #main .div_4 {
   display: flex;
   height: 8rem;
   flex-wrap: wrap;
-  font-size: 0.0267rem '仿宋';
+  font-size: 0.5333rem;
 }
 #main .div_5 {
   display: flex;
   height: 8rem;
   flex-wrap: wrap;
-  font-size: 0.0027rem '仿宋';
+  font-size: 0.5333rem;
 }
