@@ -117,6 +117,7 @@ a {
   font-weight: bold;
   user-select: none;
   font-size: 1.3333rem;
+  font-family: '仿宋';
 }
 @keyframes remove {
   100% {
