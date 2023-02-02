@@ -94,7 +94,7 @@ a {
   font-size: 0.5333rem '仿宋';
 }
 #main .content p {
-  font-size: 0.2667rem;
+  font-size: 0.5333rem;
 }
 #main .Detailed {
   margin-left: 0.5333rem;
@@ -149,7 +149,7 @@ a {
   line-height: 1.0667rem;
 }
 #main .div_1 .Detailed_A a {
-  font-size: 0.5333rem;
+  font-size: 0.4rem;
 }
 #main .div_2 {
   display: flex;
