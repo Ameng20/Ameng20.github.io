@@ -110,6 +110,9 @@ a {
   line-height: 1.0667rem;
   font-size: 0.5333rem;
 }
+p {
+  font-size: 0.5333rem '仿宋';
+}
 #main {
   height: 53.3333rem;
   background-color: #e8e8e8;
@@ -148,19 +151,23 @@ a {
   display: flex;
   height: 300px;
   flex-wrap: wrap;
+  font-size: 0.5333rem '仿宋';
 }
 #main .div_3 {
   display: flex;
-  height: 300px;
+  height: 8rem;
   flex-wrap: wrap;
+  font-size: 0.5333rem '仿宋';
 }
 #main .div_4 {
   display: flex;
-  height: 300px;
+  height: 8rem;
   flex-wrap: wrap;
+  font-size: 0.5333rem '仿宋';
 }
 #main .div_5 {
   display: flex;
-  height: 300px;
+  height: 8rem;
   flex-wrap: wrap;
+  font-size: 0.1333rem '仿宋';
 }
