@@ -111,6 +111,31 @@ a {
     transform: rotate(360deg);
   }
 }
+.audio_ {
+  display: flex;
+  margin: 13.3333rem auto;
+  width: 100%;
+  height: 5.3333rem;
+  flex-wrap: wrap;
+}
+.audio_ .audio_11 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+.audio_ .audio_11 .audio_1 {
+  flex: 1;
+}
+.audio_ .audio_22 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+.audio_ .audio_22 .audio_2 {
+  flex: 1;
+}
 .text {
   position: absolute;
   z-index: 9999999;

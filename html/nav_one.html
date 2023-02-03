@@ -10,15 +10,88 @@
         </head>
 <body>
     <script>
-        alert('浏览器自动屏蔽播放,更好的体验建议使用手机自带浏览器访问。');
+        // alert('浏览器自动屏蔽播放,更好的体验建议使用手机自带浏览器访问。');
     </script>
+    <!-- 播放器 -->
     <div class="Rotate">
         <img src="../img/header.png">
         <div class="Rotate_div"></div>
     </div>
-    <audio autoplay="autoplay" loop="loop">
-    <source src="../img/audio1.mp3" type="audio/mp3">
+    <audio class="audio1" autoplay="autoplay" loop="loop">
+    <source  src="../img/audio1.mp3" type="audio/mp3">
     </audio>
+    <div class="audio_">
+        <div class="audio_11">
+        <div class="audio_1">
+            <a class="a" href="#">❤得不到的爱DJ❤</a>
+            <audio class="audio2" loop>
+                <source  src="../img/audio2.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        <div class="audio_1">
+            <a class="b" href="#">❤Something❤</a>
+            <audio class="audio3" loop>
+                <source  src="../img/audio3.m4a" type="audio/mp3">
+            </audio>
+        </div>
+        </div>
+        <div class="audio_22">
+            <div class="audio_2">
+                <a class="c" href="#"> ❤夏季备忘录❤</a>
+                <audio class="audio4" loop>
+                    <source  src="../img/audio4.m4a" type="audio/mp3">
+                </audio>
+            </div>
+            <div class="audio_2">
+                <a class="d" href="#">❤Gentl eman❤</a>
+                <audio class="audio5" loop>
+                    <source  src="../img/audio5.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+    </div>
+    <script>
+            
+        var a=document.querySelector('.a');
+        var b=document.querySelector('.b');
+        var c=document.querySelector('.c');
+        var d=document.querySelector('.d');
+        var audio1=document.querySelector('.audio1');
+        var audio2=document.querySelector('.audio2');
+        var audio3=document.querySelector('.audio3');
+        var audio4=document.querySelector('.audio4');
+        var audio5=document.querySelector('.audio5');
+        a.onclick=function(){
+            audio1.pause();
+            audio2.play();
+            audio3.pause();
+            audio4.pause();
+            audio5.pause();
+        }
+        b.onclick=function(){
+            audio1.pause();
+            audio2.pause();
+            audio3.play();
+            audio4.pause();
+            audio5.pause();
+           
+            
+        }
+        c.onclick=function(){
+            audio1.pause();
+            audio2.pause();
+            audio3.pause();
+            audio4.play();
+            audio5.pause();
+        }
+        d.onclick=function(){
+            audio1.pause();
+            audio2.pause();
+            audio3.pause();
+            audio4.pause();
+            audio5.play();
+        }
+    </script>
     <script>
         window.addEventListener('load', function () {
             let body = document.body;
@@ -26,9 +99,9 @@
                 "❤《浩瀚天空》❤", "❤《千千万万》❤", "❤《我在等》❤", "❤《如一》❤", "❤《收敛》❤", "❤《间距》❤", "❤《永远迷恋你》❤",
                 "❤《阿拉斯加海湾》❤", "❤《Peace&Love》❤", "❤《灰色》❤", "❤《带你回家》❤", "❤《等我回家》❤", "❤《0919》❤",
                 "❤《我很好》❤", "❤《会不会》❤", "❤《经济舱》❤", "❤《我走后》❤", "❤《这是个空白》❤", "❤《Girls》❤",
-                "❤《Let Her Go》❤", "❤《关于你的梦》❤", "❤《慢慢》❤", "❤《下雨天》❤", "❤《永远爱你》❤", "❤《靠近一点》❤",
+                "❤《Let Her Go》❤", "❤《关于你的梦》❤", "❤《小可爱！》❤", "❤《下雨天》❤", "❤《永远爱你》❤", "❤《靠近一点》❤",
                 "❤《翅膀》❤", "❤《This Is Love》❤", "❤《你的TA还好吗！》❤", "❤《晴天》❤", "❤《空白格》❤", "❤《爱你3000》❤",
-                "❤《黎明就在眼前》❤", "❤《阿梦》❤", "❤《晚星》❤", "❤《你，好不好？》❤", "❤《50 Feet》❤", "❤《COCO》❤",
+                "❤《黎明就在眼前》❤", "❤《阿梦》❤", "❤《晚星》❤", "❤《你，好不好？》❤", "❤《50 NONO》❤", "❤《10101B》❤",
                 "❤《MINI》❤", "❤《重演》❤", "❤《所念皆星河》❤"
             ] 
             // let icon = ["<img src='../img/icon7'>"]
